@@ -34,7 +34,7 @@ class Tea
 int main()
 {
 
-    Tea lemonTea; //Unlike java and C#, C++ doesn't provide a default constructor
+    Tea lemonTea; //default constructor will be called automatically
 
     lemonTea.name = "Lemon Tea";
     lemonTea.servings = 10;
